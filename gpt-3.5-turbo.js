@@ -1,5 +1,5 @@
 const SECRET_KEY = "API_key_here";
-const MAX_TOKENS = 500;
+const MAX_TURBO_TOKENS = 500;
    
     function TURBO(prompt, model="gpt-3.5-turbo", temperature=0.5) {
      let apiKey = SECRET_KEY;
@@ -13,7 +13,7 @@ const MAX_TOKENS = 500;
             ],
        model: model,
        temperature: temperature,
-       max_tokens: MAX_TOKENS,
+       max_tokens: MAX_TURBO_TOKENS,
      };
      let options = {
        method: "post",
