@@ -6,7 +6,7 @@ const MAX_TOKENS = 500;
      let endpoint = "https://api.openai.com/v1/chat/completions";
      let payload = {
        messages:[
-        {role: 'system', content: 'This is where you describe what cpt does and how it answers.'},
+        {role: 'system', content: 'This is where you describe what gpt does and how it answers.'},
         {role: 'user', content: 'This is an example question'},
         {role: 'assistant', content: "This is an example answer"},
         {role: 'user', content: `${prompt}`},
