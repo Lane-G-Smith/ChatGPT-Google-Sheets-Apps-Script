@@ -2,11 +2,11 @@
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
-        <img     src=""
+        <img     src="https://seeklogo.com/images/G/google-apps-script-logo-BDEAA5E2DF-seeklogo.com.png"
         width="48"
         height="48"
         />
-        <br /><strong>Discord.js</strong>
+        <br /><strong>Apps Scripts</strong>
     </td>
     <td align="center" height="108">
       <p align="center">Simple code snippets for integrating OpenAI's GPT language models into your google sheets documents using Apps Scripts.
