@@ -1,5 +1,5 @@
 const SECRET_KEY = "API_key_here";
-const MAX_TOKENS = 500;
+const MAX_DAVINCI_TOKENS = 500;
    
 function Davinci3(prompt, model="text-davinci-003", temperature=0.5) {
     let endpoint = "https://api.openai.com/v1/completions";
@@ -7,7 +7,7 @@ function Davinci3(prompt, model="text-davinci-003", temperature=0.5) {
     let payload = {
         model: model,
         prompt: prompt,
-        max_tokens: MAX_TOKENS,
+        max_tokens: MAX_DAVINCI_TOKENS,
         temperature: temperature
     };
      
