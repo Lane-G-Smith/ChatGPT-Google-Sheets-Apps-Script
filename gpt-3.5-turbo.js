@@ -1,4 +1,4 @@
-const SECRET_KEY = "";
+const SECRET_KEY = "API_key_here";
 const MAX_TOKENS = 500;
    
     function TURBO(prompt, model="gpt-3.5-turbo", temperature=0.5) {
