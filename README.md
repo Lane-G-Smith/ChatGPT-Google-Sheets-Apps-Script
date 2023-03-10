@@ -22,7 +22,13 @@
 ```sh
 https://platform.openai.com/signup
 ```
-### Place your secret OpenAI API key into the blank secret key quotation marks at the top of the page
+### Open a new document in Google Ssheets, click Extensions / Apps Script
+### push the + button near top left and choose Script
+### Name the new script
+### clear page, then copy paste code from desired model js file to Script page
+### Place your secret OpenAI API key beyween the quotation marks at the top of page where it says SECRET_API_KEY_HERE
+### Save and exit
+###
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: OPENAI_API_KEY=your_unique_API_key_here
 ```
