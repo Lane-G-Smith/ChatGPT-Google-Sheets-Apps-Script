@@ -22,5 +22,5 @@ function Davinci3(prompt, model="text-davinci-003", temperature=0.5) {
     let json = response.getContentText();
     let data = JSON.parse(json);
      
-     return data.choices[0].text.trim();
+    return data.choices[0].text.trim();
 }
