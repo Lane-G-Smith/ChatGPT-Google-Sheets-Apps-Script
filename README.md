@@ -18,25 +18,14 @@
 
 ## ChatGPT-Google-Sheets-Apps-Scripts installation instructions
 
-### Go to OpenAI and open an account. (This is the exact same account that other services upcharge for)
+### Go to OpenAI and set up an account
 ```sh
 https://platform.openai.com/signup
 ```
+## IMPORTANT!! Scripts do not protect secret API keys, do not share GPT enabled documents
 ### Open a new document in Google Ssheets, click Extensions / Apps Script
-### push the + button near top left and choose Script
-### Name the new script
-### clear page, then copy paste code from desired model js file to Script page
-### Place your secret OpenAI API key beyween the quotation marks at the top of page where it says SECRET_API_KEY_HERE
-### Save and exit
-###
-```sh
-TYPE THIS EXACTLY, IT IS CASE SENSITIVE: OPENAI_API_KEY=your_unique_API_key_here
-```
-### To host the bot locally, open project terminal and run a node server
-```sh
-node index.js
-```
-### Congradulations, your bot should now be live & confirmation should be logged in the terminal. Use your personal link from the Discord developer portal to invite your bot to a Discord server
-```sh
-https://discord.com/developers/applications
-```
+### push the + button near top left and choose Script to create new script
+### clear page, then copy paste code from desired model js file to Script
+### Place your secret OpenAI API key beyween quotation marks at the top of page where it says SECRET_API_KEY_HERE
+### each function calls a different AI model and can be called using the KEYWORD immediately following the word "function" in line 4
+### Use the new functionality by typing =KEYWORD("your prompt to GPT will go here") and pressing enter
