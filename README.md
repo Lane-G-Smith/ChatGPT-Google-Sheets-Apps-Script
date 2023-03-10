@@ -29,3 +29,4 @@ https://platform.openai.com/signup
 ### Place your secret OpenAI API key beyween quotation marks at the top of page where it says SECRET_API_KEY_HERE
 ### each function calls a different AI model and can be called using the KEYWORD immediately following the word "function" in line 4
 ### Use the new functionality by typing =KEYWORD("your prompt to GPT will go here") and pressing enter
+### For GPT-3.5 models fill in the prompt at line 9,10,11 to specify desired functionality
