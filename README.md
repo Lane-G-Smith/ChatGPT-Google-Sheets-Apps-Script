@@ -1,4 +1,4 @@
-<h1 align="center">TrashTalkingDiscordBot</h1>
+<h1 align="center">ChatGPT-Google-Sheets-Apps-Scripts</h1>
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
