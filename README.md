@@ -10,6 +10,8 @@
     </td>
     <td align="center" height="108">
       <p align="center">Simple code snippets for integrating OpenAI's GPT language models into your Google Sheets documents using Apps Script.
+        <p align="center">!!!Davinci3 is now deprecated!!!
+      </p>
       </p>
      </td>
    </tr>
@@ -27,6 +29,6 @@ https://platform.openai.com/signup
 ### Push the + button near the top left and choose Script to create a new script
 ### Clear the page, then copy and paste code from the desired model js file to Script
 ### Place your secret OpenAI API key between quotation marks at the top of the page where it says SECRET_API_KEY_HERE
-### Each function calls a different AI model and can be called using the KEYWORD immediately following the word "function" in line 4
+### Each function calls a different AI model and can be called using the KEYWORD immediately following the word "function" in line 4 (GPT-4, TURBO, Davinci3)
 ### Use the new functionality by typing =KEYWORD("your prompt to GPT will go here") and pressing enter
 ### For GPT-3.5 models fill in the prompt at line 9,10,11 to specify desired functionality
