@@ -2,7 +2,7 @@
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
-        <img     src="https://seeklogo.com/images/G/google-apps-script-logo-BDEAA5E2DF-seeklogo.com.png"
+        <img     src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/512px-Google_Apps_Script.svg.png"
         width="48"
         height="48"
         />
