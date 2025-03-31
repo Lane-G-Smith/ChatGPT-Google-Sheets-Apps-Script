@@ -24,7 +24,7 @@
 ```sh
 https://platform.openai.com/signup
 ```
-## IMPORTANT!! Scripts do not protect secret API keys, do not share GPT-enabled documents
+## IMPORTANT!! Sharing GPT-enabled documents could compromise API keys. Only share GPT enabled documents if you know what you are doing.
 ### Open a new document in Google Sheets, click Extensions / Apps Script
 ### Push the + button near the top left and choose Script to create a new script
 ### Clear the page, then copy and paste code from the desired model js file to Script
